@@ -4,7 +4,7 @@ const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout
 });
-let modelos = ["Duster", "Creta", "Nivus", "Pulse", "Compass"];
+let modelos = ["carrinhoVelho", "golzinhoFofo", "CabeApenasCasal", "bbzinho", "95"];
 let precos = [110000, 135000, 128000, 105000, 180000];
 rl.question("Digite seu orçamento: ", function(valor) {
     let orcamento = Number(valor);
